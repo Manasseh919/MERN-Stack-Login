@@ -36,7 +36,7 @@ export default function Username() {
             <div className="profile flex justify-center py-4">
               <img className={styles.profile_img} src={avatar} alt="avatar" />
             </div>
-            <div className="flex flex-col items-center py-4 textbox">
+            <div className="flex flex-col items-center  textbox">
               <input
                 {...formik.getFieldProps("username")}
                 type="text"
